@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<style>
+    body{
+        background-color: rgb(28, 203, 189);
+    }
+    div{
+        position:absolute;
+         height: 450px;
+         width:400px;
+         display: grid;
+        background:rgba(140, 118, 118, 0.144);
+        box-shadow:0 16px 21px rgba(50,50,50 , 187);
+        margin-left:35%;
+        margin-top:3%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius:  20px;
+    }
+    a{
+        position: absolute;
+        width: 50px;
+        height: 20px;
+        background-color: rgb(154, 202, 200);
+        border: 1px solid black;
+        border-radius: 4px;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+    a:hover{
+        background-color: rgba(62, 227, 227, 0.985);
+        color: black;
+    }
+    button{
+        background-color: rgb(154, 202, 200) ;
+        border: 1px solid black;
+        border-radius: 4px;
+        color: rgb(0, 0, 0);
+    }
+    button:hover{
+        background-color:  rgba(62, 227, 227, 0.985);
+        color: black;
+    }
+</style>
+<body><div><form><center><table>
+   <u> <h2>SignUp</h2></u>
+  <tr><th><label value="firstname">First Name</label></th> 
+  <td> <input type="text" required></td></tr>
+  <tr><th> <label value="lastname">Last Name</label></th>
+  <td> <input type="text" ></td></tr>
+  <tr><th> <label value="nickname">Nick Name</label></th>
+   <td><input type="text"></td></tr>
+   <tr><th> <label value="email">E-mail ID</label></th>
+  <td> <input type="email" > </td></tr>
+  <tr><th> <label value="pwd">Password</label></th>
+   <td><input type="password" ></td></tr>
+   <tr><th><label value="dob">Date of Birth</label></th>
+   <td><input type="date" ></td></tr>
+   <tr><th><label value="gender">Gender</label></th>
+   <td><input type="radio" >Male<input type="radio">Female<input type="radio">Others</td></tr>
+   <tr><th> <label value="num">Mobile</label></th>
+  <td> <input type="number" value="num"></td></tr>
+
+
+    <tr><th> <label>Address</label></th>
+   <td><textarea name="Address" rows="4" cols="30"></textarea></td></tr>
+
+</table><button type="submit">Submit</button>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="index.html">Login</a></form></center></div>
+</body>
+</html>

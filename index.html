@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task2</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+     body{
+        background-color:rgb(118, 226, 217);
+    }
+   
+    .logbox{
+         position:absolute;
+         height: 450px;
+         width:400px;
+         display: grid;
+        background:rgba(140, 118, 118, 0.144);
+        box-shadow:0 16px 21px rgba(50,50,50 , 187);
+        margin-left:35%;
+        margin-top:3%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius:  20px;
+    }
+    .h4{
+        position: absolute;
+        padding: 10px 10px;
+        font-size: 15px;
+        width:30%;
+        height: 15px;  
+        margin-left: 20%;
+
+        background-color: rgb(28, 203, 189);
+        border: 1px solid black;
+        border-radius: 30px;
+
+        text-align: center;
+        
+        outline: 1px solid black;
+
+    }
+    .h3{ position: absolute;
+        padding: 10px 10px;
+        font-size: 15px;
+        width:30%;
+        height: 15px;
+margin-left: 145px;
+         color:black;
+    
+        background-color: rgb(222, 181, 77);
+        
+        border: 1px solid black;
+        border-radius: 30px;
+        
+        text-align: center;
+        outline: 1px solid black;
+       
+    }
+    
+    .input-box{
+        position: relative;
+        width:330px;
+       margin: 30px 0;
+        border-bottom: 2px solid black;
+    }
+   .input-box label{
+position: absolute;
+top:30%;
+left:5px;
+transform: translateY(-50%);
+font-size: 17px;
+pointer-events:none ;
+transition: .5s;
+    }
+    
+    
+   .input-box input{
+    width:50% ;
+    height: 50px;
+    background: transparent;
+border: none;
+outline: none;
+font-size: 1em;
+color:black;
+padding: 0 8px 0 5px;
+    }
+    .remfor{
+        margin: -15px 0 15px;
+        font-size: medium;
+        display: flex;
+        justify-content: space-between;
+    }
+    .remfor label input{
+        margin-right: 3px;
+    }
+    .remfor a{
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-weight: 600;
+
+    }
+    .remfor a:hover{
+        text-decoration: underline;
+
+    }
+    button{
+        
+        width: 100%;
+        height: 40px;
+        background:rgb(28, 203, 189);
+        border: 1x solid black;
+       outline: none;
+       border-radius: 40px;
+       color: black;
+       cursor:pointer ;
+       font-size: 1em;
+
+        font-weight: 500;
+    }
+    .newreg{
+      
+        font-size: 15px;
+        color: black;
+        text-align: center;
+        margin: 25px 0 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .newreg a{
+        color: rgb(6, 6, 6);
+        text-decoration: none;
+        font-weight: 600;
+    }
+    .newreg a:hover{
+        text-decoration: underline;
+
+    }
+
+</style>
+<body >
+   
+  
+       
+        
+   
+    <div class="logbox">
+        <form action=""> <b><div class="h4">Login</div> 
+           
+
+            <div class="input-box">
+            <label><b><i class="fa-regular fa-envelope"></i>&nbsp;&nbsp;E-mail ID</b></label><br>
+            <input type="email" required  placeholder="Enter email"></div>
+            <div class="input-box">
+                <label><b><i class="fa-solid fa-lock"></i>&nbsp;&nbsp;Password</b></label><br>
+            <input type="password"  placeholder="Enter password"></div>
+            <div class="remfor">
+            <label ><input type="checkbox">Show Password</label><a href="#forgetpwd">Forget Password</a><br><br></div>
+          <button type="submit"> Login</button> 
+          <div class="newreg">
+            </p>Do you not  have an account?<a href="signup.html">Sign up</a></p>
+        </div>
+      </form></div>
+      <script>
+        
+      </script>
+</body>
+</html>
